@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tarefa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Manipulação de eventos</h1>
+
+  <!--  Parte 1: Botão de saudação -->
+  <section>
+    <h2>Saudação</h2>
+    <button id="btnSaudacao">Saudar</button>
+    <p id="mensagemSaudacao"></p>
+  </section>
+
+  <!--  Parte 2: Alternância de Tema -->
+  <section>
+    <h2>Modo Claro e Escuro</h2>
+    <button id="alternarTema">Alternar Tema</button>
+  </section>
+
+  <!--  Parte 2: Contador Interativo -->
+  <section>
+    <h2>Contador</h2>
+    <button id="btnMais">+1</button>
+    <button id="btnMenos">-1</button>
+    <p id="valorContador">0</p>
+  </section>
+
+  <!--  Parte 3: Formulário com Validação -->
+  <section>
+    <h2>Formulário de Cadastro</h2>
+    <form id="formularioCadastro">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email"><br><br>
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha"><br><br>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+    <p id="feedbackForm"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
